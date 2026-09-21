@@ -1,10 +1,10 @@
-n = int(input("Enter the number"))
+n = int(input("Enter the number")) # input 5
 
 def factorial(n):
     fact = 1
     for i  in range(1,n+1):
         fact*=i
-    print("Factorial of number",n,fact)
+    print("Factorial of number",n,fact) #output 120
 
 
 factorial(n)
