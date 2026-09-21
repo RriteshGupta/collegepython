@@ -1,4 +1,4 @@
-def add_entity(d):
+def add_entity(d):#add the entity rool munber
     d["roll"] = 34
 
 def ressing_dict(d):
@@ -13,5 +13,5 @@ dic  = {
 
 }
 
-add_entity(dic)
-print(dic)
+add_entity(dic) #call function
+print(dic) #{"name": ritesh,"Age" :19,"Rool":34}
